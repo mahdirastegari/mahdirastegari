@@ -769,30 +769,23 @@ select option,
 
 .btn {
   background-color: #304CFD;
-  border-radius: 20px;
   border: 0;
-  box-shadow: 0 0.5rem 1rem rgba(48, 76, 253, 0.15), 0 0.125rem 0.25rem rgba(48, 76, 253, 0.15);
+  box-shadow: none;
   color: #fff;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   line-height: inherit;
-  padding: 0.9375rem 2rem 0.875rem;
   position: relative;
   transition: .4s ease-in-out;
   white-space: nowrap;
 }
 .btn:hover {
   color: #fff;
-  box-shadow: none;
-  opacity: .9;
-}
-.btn:focus {
-  box-shadow: 0 1.5rem 2.5rem rgba(48, 76, 253, 0.1), 0 0.5rem 1rem rgba(48, 76, 253, 0.1);
+  opacity: .8;
 }
 .btn::before {
   content: '';
-  box-shadow: 0 0.25rem 2rem rgba(48, 76, 253, 0.25), 0 0.25rem 1rem rgba(48, 76, 253, 0.25);
   margin: 0 auto;
   height: 1rem;
   position: absolute;
