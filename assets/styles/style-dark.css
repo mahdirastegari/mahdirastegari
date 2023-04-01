@@ -291,6 +291,7 @@ a:hover {
 }
 .box__second {
   background-color: #2C283A;
+  height: 100%;
 }
 
 .box-inner {

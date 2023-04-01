@@ -1615,7 +1615,6 @@ button:focus {
   display: flex;
   align-items:flex-start;
   align-content:flex-start;
-  margin-bottom: 1.875rem;
   padding: 1.875rem 1.875rem 1.5rem;
   position: relative;
 }
